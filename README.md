@@ -1,4 +1,4 @@
-# SlackButton
+# SlackAlert
 
 ## Requirements
 
@@ -10,7 +10,7 @@
 
 #### Clone this repository
 
-    git clone git@github.com:vigetlabs/slack_button.git
+    git clone git@github.com:vigetlabs/slack_alert.git
 
 #### Install Ruby gems
 
@@ -39,7 +39,7 @@ Then, create and migrate the database
 
 Edit `config/secrets.yml` with the proper Slack API URL, which can be obtained from your Slack services integration settings. Don't forget to also update PARTICLE_API_KEY and PARTICLE_DEVICE_ID.
 
-## Running the SlackButton App
+## Running the SlackAlert App
 
     rails server
 
