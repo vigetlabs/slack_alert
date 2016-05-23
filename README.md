@@ -37,7 +37,7 @@ Then, create and migrate the database
 
     cp config/secrets.yml.example config/secrets.yml
 
-Edit `config/secrets.yml` with the proper Slack API URL, which can be obtained from your Slack services integration settings.
+Edit `config/secrets.yml` with the proper Slack API URL, which can be obtained from your Slack services integration settings. Don't forget to also update PARTICLE_API_KEY and PARTICLE_DEVICE_ID.
 
 ## Running the SlackButton App
 
