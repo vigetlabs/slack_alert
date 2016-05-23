@@ -1,0 +1,9 @@
+<h2>All Button Presses</h2>
+
+<ul>
+  <% @button_presses.each do |press| %>
+    <li>
+      <%= press.pushed_at.strftime("%x %X") %> (<%= press.human_responded_to %>)
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,14 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: <%= `whoami` %>
+  password:
+
+development:
+  <<: *default
+  database: slack_alert_development
+
+test:
+  <<: *default
+  database: slack_alert_test
