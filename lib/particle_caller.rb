@@ -7,7 +7,7 @@ class ParticleCaller
         c.access_token = Rails.application.secrets.particle_api_key
       end
 
-      Particle.device(Rails.application.secrets.particle_device_id).function('slackRespond')
+      Particle.device("#{Rails.application.secrets.particle_device_id}").function('slackRespond')
     rescue
   end
 end

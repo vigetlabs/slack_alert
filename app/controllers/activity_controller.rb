@@ -14,8 +14,6 @@ class ActivityController < ApplicationController
       # push out to Particle
       ParticleCaller.new.help_is_coming
 
-      binding.pry #Particle.last_response
-
       # say thanks!
       SlackPoster.new("Thanks!").success?
     end
