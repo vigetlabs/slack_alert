@@ -8,8 +8,6 @@ class ParticleCaller
       end
 
       Particle.device(Rails.application.secrets.particle_device_id).function('slackRespond')
-
-      #binding.pry #Particle.last_response
     rescue
   end
 end

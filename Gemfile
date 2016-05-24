@@ -8,7 +8,6 @@ gem 'coffee-rails', '~> 4.1.0'
 gem "particlerb", "~> 0.0.3"
 gem 'jquery-rails'
 gem 'httparty'
-gem 'quiet_assets'
 
 group :production do
   gem 'rails_12factor'
@@ -16,6 +15,8 @@ end
 
 group :development, :test do
   gem 'pry'
+  gem 'dotenv-rails'
+  gem 'quiet_assets'
 end
 
 group :development do
