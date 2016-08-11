@@ -24,6 +24,6 @@ class ActivityController < ApplicationController
   private
 
   def slack_poster
-    SlackPoster.new("I'm stuck in the stairwell, please halp!")
+    SlackPoster.new("@here I'm stuck in the stairwell, please halp!")
   end
 end
